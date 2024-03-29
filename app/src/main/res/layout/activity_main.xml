@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="1dp"
+            android:backgroundTint="#4A00FFFF"
+            android:text="0"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/myButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="1dp"
+            android:backgroundTint="#4A00FFFF"
+            android:text="0"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/myButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="1dp"
+            android:backgroundTint="#4A00FFFF"
+            android:text="0"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/myButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="1dp"
+            android:backgroundTint="#4A00FFFF"
+            android:text="0"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkbox"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/CheckBoxLayout"
+        android:gravity="center">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_on_1"
+            android:textOff="Red"
+            android:textOn="Yellow" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_on_2"
+            android:textOff="Purple"
+            android:textOn="Green" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_on_3"
+            android:textOff="Orange"
+            android:textOn="Blue" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
